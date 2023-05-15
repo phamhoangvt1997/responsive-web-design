@@ -13,6 +13,7 @@
 
     <h1 id="title">Curtin Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
+
     <form id="survey-form" action="">
         <fieldset>
             <label for="name">
@@ -24,7 +25,7 @@
             </label>
 
             <label for="number">
-                Age(optional)<input type="number" id="number" placeholder="Age" min="1" max="99">
+                Age(optional)<input type="number" id="number" placeholder="Age" min="15" max="99">
             </label>
         </fieldset>
         <fieldset>
@@ -42,10 +43,13 @@
         </fieldset>
 
         <fieldset for="friend-choice">
-            you recommend Curtin for a friend
-            <label><input type="radio" name="friend-choice" id="definitely" value="definitely"> Definitely</label>
-            <label><input type="radio" name="friend-choice" id="maybe" value="maybe"> Maybe</label>
-            <label><input type="radio" name="friend-choice" id="not-sure" value="not-sure"> Not sure</label>
+            <p id="recommend-question">Would you recommend Curtin to a friend</p>
+            <label for="definitely"><input type="radio" name="friend-choice" id="definitely" value="definitely"
+                    class="inline">
+                Definitely</label>
+            <label><input type="radio" name="friend-choice" id="maybe" value="maybe" class="inline"> Maybe</label>
+            <label><input type="radio" name="friend-choice" id="not-sure" value="not-sure" class="inline"> Not
+                sure</label>
         </fieldset>
 
         <fieldset for="feature">
@@ -62,28 +66,39 @@
         </fieldset>
 
         <fieldset for="feature-choice">
-            What would you like to see improved? <span id="check-note">(check all that apply)</span>
-            <label><input type="checkbox" id="front-end" name="front-end" value="front-end"> Front-end Projects</label>
-            <label><input type="checkbox" id="back-end" name="back-end" value="back-end"> Back-end Projects</label>
-            <label><input type="checkbox" id="data-visualization" name="data-visualization" value="data-visualization">
+            <p id="improve-question">What would you like to see improved? <span id="check-note">(check all that
+                    apply)</span></p>
+            <label><input type="checkbox" id="front-end" name="front-end" value="front-end" class="inline">
+                Front-end
+                Projects</label>
+            <label><input type="checkbox" id="back-end" name="back-end" value="back-end" class="inline"> Back-end
+                Projects</label>
+            <label><input type="checkbox" id="data-visualization" name="data-visualization" value="data-visualization"
+                    class="inline">
                 Data Visualisation</label>
-            <label><input type="checkbox" id="challenges" name="challenges" value="challenges"> Challenges</label>
+            <label><input type="checkbox" id="challenges" name="challenges" value="challenges" class="inline">
+                Challenges</label>
             <label><input type="checkbox" id="open-source-community" name="open-source-community"
-                    value="open-source-community"> Open Source
+                    value="open-source-community" class="inline"> Open Source
                 Commmunity</label>
-            <label><input type="checkbox" id="gitter-help-rooms" name="gitter-help-rooms" value="gitter-help-rooms">
+            <label><input type="checkbox" id="gitter-help-rooms" name="gitter-help-rooms" value="gitter-help-rooms"
+                    class="inline">
                 Gitter help rooms</label>
-            <label><input type="checkbox" id="videos" name="videos" value="videos"> Videos</label>
-            <label><input type="checkbox" id="city-meetups" name="city-meetups" value="city-meetups"> City
+            <label><input type="checkbox" id="videos" name="videos" value="videos" class="inline"> Videos</label>
+            <label><input type="checkbox" id="city-meetups" name="city-meetups" value="city-meetups" class="inline">
+                City
                 Meetups</label>
-            <label><input type="checkbox" id="wiki" name="wiki" value="wiki"> Wiki</label>
-            <label><input type="checkbox" id="forum" name="forum" value="forum"> Forum</label>
-            <label><input type="checkbox" id="additional-courses" name="additional-courses" value="additional-courses">
+            <label><input type="checkbox" id="wiki" name="wiki" value="wiki" class="inline"> Wiki</label>
+            <label><input type="checkbox" id="forum" name="forum" value="forum" class="inline"> Forum</label>
+            <label><input type="checkbox" id="additional-courses" name="additional-courses" value="additional-courses"
+                    class="inline">
                 Additional Courses</label>
 
 
-            <label for="comments">Any comments or suggestions?</label>
-            <textarea name="comments" id="" cols="30" rows="10"> Enter comments here</textarea>
+            <label for="comments">
+                <p id="comments">Any comments or suggestions?</p>
+            </label>
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="Enter your comments here"></textarea>
         </fieldset>
 
         <fieldset>
@@ -91,7 +106,7 @@
         </fieldset>
     </form>
 
-
 </body>
+
 
 </html>
