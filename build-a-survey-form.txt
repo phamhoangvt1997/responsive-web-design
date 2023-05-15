@@ -1,3 +1,5 @@
+** start of undefined **
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="survey.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Survey Form</title>
 </head>
 
@@ -110,3 +112,115 @@
 
 
 </html>
+
+** end of undefined **
+
+** start of undefined **
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: black;
+    background-image: url(https://live-production.wcms.abc-cdn.net.au/05fb9b3037fa2606106b1c06fa22c7f3?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+h1 {
+    margin: 15px auto;
+    text-align: center;
+    color: white;
+}
+
+#name,
+#email,
+#number {
+    margin-bottom: 10px;
+}
+
+#description {
+    font-style: italic;
+    margin: 15px auto;
+    text-align: center;
+    color: white;
+}
+
+#recommend-question,
+#improve-question {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+#comments {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    border-radius: 5px;
+    margin: 15px 5px 0 0;
+    border: none;
+}
+
+input,
+select {
+    height: 30px;
+}
+
+.inline {
+    vertical-align: middle;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    height: 30px;
+    width: 25px;
+}
+
+span {
+    font-style: italic;
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+form {
+    padding: 25px 25px 20px 20px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgba(237, 210, 170, 80%);
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="submit"] {
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(219, 183, 90);
+    color: white;
+}
+
+input[type="submit"]:hover {
+    color: black;
+}
+
+** end of undefined **
+
