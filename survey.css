@@ -15,3 +15,12 @@ p {
     margin: 1em auto;
     text-align: center;
 }
+
+label {
+    display: block;
+}
+
+form {
+    width: 40%;
+    margin: 0 auto;
+}
