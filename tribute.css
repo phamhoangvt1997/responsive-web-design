@@ -3,6 +3,7 @@ main {
     background-color: rgba(218, 218, 218, 0.756);
     border-radius: 15px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .header {
@@ -64,4 +65,11 @@ li {
     margin: 0 auto;
     padding-left: 5%;
     font-style: italic;
+}
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
 }
