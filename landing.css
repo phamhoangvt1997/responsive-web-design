@@ -1,27 +1,90 @@
-nav {
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-}
-
-#navbarheadings {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    margin-right: 14rem;
-}
-
-#navbarheadings h1 {
-    padding-left: 14rem;
-    font-size: 30px;
+* {
     font-family: raleway, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-logo {
-    width: 200px;
-    margin-left: 150px;
-    padding-top: 25px;
+header {
+    width: 100%;
+    border: red solid 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
+
+#header-img {
+    width: 500px;
+}
+
+nav {
+    width: 80%;
+    border: 2px solid green;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+
+nav ul {
+    background: white;
+    width: 50%;
+    border: solid 2px orange;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 600px;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(67, 67, 67);
+}
+
+
+form {
+    padding-top: 28rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h1 {
+    font-size: 50px;
+    font-weight: 1500;
+
+}
+
+#email {
+    width: 17%;
+    height: 60px;
+    font-size: 30px;
+    margin: 50px;
+    color: black;
+}
+
+#submit {
+    height: 150px;
+    width: 500px;
+    font-size: 60px;
+    background-color: rgba(212, 212, 212, 0.575);
+    font-weight: 900;
+    border-radius: 30px;
+    font-family: tahoma;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    font-size: 65px;
 }
