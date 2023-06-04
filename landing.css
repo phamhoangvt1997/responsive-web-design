@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+#navbarheadings {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 14rem;
+}
+
+#navbarheadings h1 {
+    padding-left: 14rem;
+    font-size: 30px;
+    font-family: raleway, sans-serif;
+}
+
+.nav-logo {
+    width: 200px;
+    margin-left: 150px;
+    padding-top: 25px;
+}
