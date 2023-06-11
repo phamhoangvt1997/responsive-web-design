@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Quicksand;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: rgb(79, 98, 235);
+    color: white;
+    justify-content: end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    display: flex;
+    padding-right: 50px;
+    font-size: 30px;
+    align-items: center;
+}
+
+#welcome-section {
+    background: linear-gradient(62deg, #2c3742 0%, #181620 100%);
+    padding-top: 100px;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+}
+
+#welcome-section h1 {
+    padding-top: 300px;
+    color: white;
+    font-size: 50px;
+    font-family: Arial;
+}
+
+#welcome-section h2 {
+    color: rgb(85, 134, 211);
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 5px;
+    font-family: Noto Sans JP;
+}
+
+.projects {
+    background-color: rgb(74, 100, 136);
+}
+
+.project-title {
+    padding-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
