@@ -70,3 +70,95 @@ nav li {
     color: white;
     font-weight: bold;
 }
+
+img {
+    height: 330px;
+    width: 400px;
+}
+
+.image-title {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.imagebox {
+    width: 400px;
+    background-color: rgb(37, 39, 68);
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(37, 39, 68);
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 0%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+button:hover {
+    background-color: rgb(99, 191, 222);
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.footer {
+    background-color: rgb(19, 19, 43);
+    color: white;
+    text-align: center;
+}
+
+.footer h1 {
+    font-size: 80px;
+    padding-top: 150px;
+}
+
+#footer-quote {
+    font-style: italic;
+    padding-bottom: 50px;
+    font-weight: lighter;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 180px;
+}
+
+.social-media p {
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.footer-end {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: solid 5px rgb(79, 98, 235);
+    padding: 50px 0;
+    font-size: 20px;
+}
+
+#profile-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
