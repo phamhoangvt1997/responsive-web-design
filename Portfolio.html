@@ -18,9 +18,9 @@
     <section class="header" id="header">
         <nav class="navbar" id="navbar">
             <ul>
-                <li>About</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li><a class="nav-links" href="#welcome-section">About</a></li>
+                <li><a class="nav-links" href="#projects">Work</a></li>
+                <li><a class="nav-links" href="#footer">Contact</a></li>
             </ul>
         </nav>
     </section>
@@ -34,7 +34,7 @@
     </section>
     <section class="projects" id="projects">
         <div class="projects-box" id="projects-box">
-            <h1 class="project-title">These are some of my projects</h1>
+            <h1 class="project-title" id="project-tile">These are some of my projects</h1>
             <div class="image-grid">
                 <div class="imagebox" id="imagebox1">
                     <div class="image" id="image1">
@@ -42,55 +42,77 @@
                     ">
                     </div>
                     <div class="image-title" id="image-title1">
-                        <h1>Tribute Page</h1>
+                        <h1><span class="extra">
+                                < </span>Tribute Page<span class="extra">
+                                        /> </span></h1>
                     </div>
                 </div>
-                <div class="imagebox" id="imagebox2">
+                <div class="project-tile" id="imagebox2">
                     <div class="image" id="image2">
                         <img src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png
                     ">
                     </div>
                     <div class="image-title" id="image-title2">
-                        <h1>Random Quote Machine</h1>
+                        <h1><span class="extra">
+                                < </span>Random Quote Machine<span class="extra">
+                                        /> </span></h1>
                     </div>
                 </div>
-                <div class="imagebox" id="imagebox3">
+                <div class="project-tile" id="imagebox3">
                     <div class="image" id="image3">
                         <img src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png">
                     </div>
                     <div class="image-title" id="image-title3">
-                        <h1>JavaScript Calculator</h1>
+                        <h1><span class="extra">
+                                < </span>Java Calculator<span class="extra">
+                                        /> </span></h1>
                     </div>
                 </div>
-                <div class="imagebox" id="imagebox4">
+                <div class="project-tile" id="imagebox4">
                     <div class="image" id="image4">
                         <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg">
                     </div>
                     <div class="image-title" id="image-title4">
-                        <h1>Map Data Across the Globe</h1>
+                        <h1>
+                            <h1><span class="extra">
+                                    < </span>Map Data Accross The Globe<span class="extra">
+                                            /> </span></h1>
+                        </h1>
                     </div>
                 </div>
-                <div class="imagebox" id="imagebox5">
+                <div class="project-tile" id="imagebox5">
                     <div class="image" id="image5">
                         <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png">
                     </div>
                     <div class="image-title" id="image-title5">
-                        <h1>Wikipedia Viewer</h1>
+                        <h1>
+                            <h1><span class="extra">
+                                    < </span>Wikipedia Viewer<span class="extra">
+                                            /> </span></h1>
+                        </h1>
                     </div>
                 </div>
-                <div class="imagebox" id="imagebox6">
+                <div class="project-tile" id="imagebox6">
                     <div class="image" id="image6">
                         <img src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png">
                     </div>
                     <div class="image-title" id="image-title6">
-                        <h1>Tic Tac Toe Game</h1>
+                        <h1>
+                            <h1><span class="extra">
+                                    < </span>Tic Tac Toe Game<span class="extra">
+                                            /> </span></h1>
+                        </h1>
                     </div>
                 </div>
 
             </div>
+
             <div class="button">
-                <button>Show all <span>></span></button>
+                <a href="https://github.com/phamhoangvt1997/responsive-web-design" id="button-link">
+                    <button>Show all <span>></span></button>
+                </a>
             </div>
+
         </div>
     </section>
     <section class="footer" id="footer">
@@ -99,16 +121,27 @@
             <p id="footer-quote">How do you take your coffee</p>
         </div>
         <div class="social-media" id="social-media">
-            <p><i class="fa-brands fa-facebook"></i> Facebook</p>
-            <p><i class="fa-brands fa-github"></i> Github</p>
-            <p><i class="fa-brands fa-twitter"></i> Twitter</p>
-            <p><i class="fa-regular fa-envelope"></i> Send an email</p>
-            <p id="call"><i class="fa-solid fa-phone-volume"></i> Call me</p>
+            <a href="https://www.facebook.com/">
+                <p><i class="fa-brands fa-facebook"></i> Facebook</p>
+            </a>
+            <a href="https://www.github.com">
+                <p><i class="fa-brands fa-github"></i> Github</p>
+            </a>
+            <a href="https://www.twitter.com">
+                <p><i class="fa-brands fa-twitter"></i> Twitter</p>
+            </a>
+            <a href="mailto:phamhoangvt1997@gmail.com" id="email">
+                <p><i class="fa-regular fa-envelope"></i> Send an email</p>
+            </a>
+            <a href="tel:0420-215-950">
+                <p id="call"><i class="fa-solid fa-phone-volume"></i> Call me</p>
+            </a>
         </div>
 
         <div class="footer-end" id="footer-end">
             <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
-            <p>Created by <a id="profile-link" href="https://www.linkedin.com/in/thanh-hoang-pham-4a2b33159/">Thanh
+            <p>Created by <a id="profile-link" href="https://www.linkedin.com/in/thanh-hoang-pham-4a2b33159/"
+                    target="_blank">Thanh
                     Hoang Pham</a></p>
         </div>
     </section>
